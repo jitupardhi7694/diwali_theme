@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 50vh;
+    width: 50vw;
+    background: #000836;
+    align-items: center;
+    margin-left: 300px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width: 20vw;
+    align-items: left;
+    margin-left: 400px;
+    margin-right: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#H,
+#A,
+#P,
+#P,
+#Y,
+#bomb {
+    font-size: 8em;
+    background-color: #031058;
+    color: #fff;
+    box-shadow: 2px 2px 2px #90030380, 10px 1px 12px #90030380,
+        2px 2px 10px #90030380, 2px 2px 3px #90030380,
+        inset 2px 2px 10px #90030380, inset 2px 2px 10px #90030380,
+        inset 2px 2px 10px #90030380, inset 2px 2px 10px #90030380;
+
+    border-radius: 29px;
+    padding: 11px 19px;
+    margin: 0 40px;
+    animation: animate 3s linear infinite;
+    text-shadow: 0 0 50px #00edd2, 0 0 100px #00edd2, 0 0 150px #00edd2,
+        0 0 200px #00edd2;
+}
+
+#trees {
+    font-size: 8em;
+    background-color: #031058;
+    color: #fff;
+    box-shadow: 2px 2px 2px #90030380, 10px 1px 12px #90030380,
+        2px 2px 10px #90030380, 2px 2px 3px #90030380,
+        inset 2px 2px 10px #90030380, inset 2px 2px 10px #90030380,
+        inset 2px 2px 10px #90030380, inset 2px 2px 10px #90030380;
+
+    border-radius: 29px;
+    padding: 11px 19px;
+    margin: 0 40px;
+    animation: animate 3s linear infinite;
+    text-shadow: 0 0 50px #00edd2, 0 0 100px #00edd2, 0 0 150px #00edd2,
+        0 0 200px #00edd2;
+}
+
+#D,
+#I,
+#W,
+#A,
+#L,
+#I,
+#bomb {
+    font-size: 8em;
+    background-color: #00fae9;
+    color: rgb(32, 66, 65);
+    box-shadow: 2px 2px 2px #9d00ff80, 10px 1px 12px #9d00ff80,
+        2px 2px 10px #9d00ff80, 2px 2px 3px #9d00ff80,
+        inset 2px 2px 10px #9d00ff80, inset 2px 2px 10px #9d00ff80,
+        inset 2px 2px 10px #9d00ff80, inset 2px 2px 10px #9d00ff80;
+
+    border-radius: 29px;
+    padding: 11px 19px;
+    margin: 0 40px;
+    animation: animate 3s linear infinite;
+    text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff,
+        0 0 200px #0072ff;
+}
+
+#H {
+    animation-delay: 0.3s;
+}
+#A {
+    animation-delay: 0.7s;
+}
+#P {
+    animation-delay: 0.1s;
+}
+
+#P {
+    animation-delay: 0.3s;
+}
+#Y {
+    animation-delay: 0.7s;
+}
+#D {
+    animation-delay: 0.1s;
+}
+
+#I {
+    animation-delay: 0.3s;
+}
+#W {
+    animation-delay: 0.7s;
+}
+#A {
+    animation-delay: 0.1s;
+}
+
+#L {
+    animation-delay: 0.3s;
+}
+#I {
+    animation-delay: 0.7s;
+}
+
+@keyframes animate {
+    from {
+        filter: hue-rotate(0deg);
+    }
+    to {
+        filter: hue-rotate(360deg);
+    }
+}
